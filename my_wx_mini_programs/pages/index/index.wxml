@@ -1,0 +1,8 @@
+<view>
+    <view class="list" wx:for="{{router_list}}" wx:key="index">
+     {{item.name}}
+    </view>
+    <view class="bottom_logo">
+      <text>杰瑞私房菜</text>
+    </view>
+</view>

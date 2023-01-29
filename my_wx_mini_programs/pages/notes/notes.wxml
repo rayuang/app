@@ -1,0 +1,20 @@
+<!--pages/notes/notes.wxml-->
+<view class="search">
+  <input type="text" name="" id="" placeholder="搜索笔记" />
+  <image src="/images/search.png" mode="" />
+</view>
+<view class="notes">
+  <view class="note_list" wx:for="{{notes}}" wx:key="index">
+
+    <view class="note_title">
+      <text>#</text> {{item.title}}
+    </view>
+    <view class="note_content">
+      {{item.content}}
+    </view>
+  </view>
+
+</view>
+<view class="bottom_logo">
+  <text>杰瑞私房菜</text>
+</view>

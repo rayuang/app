@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/notes/notes",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#abc",
+    "navigationBarTitleText": "杰瑞私房菜",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#aabbcc",
+    "selectedColor": "#1afa29",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/index_icon.png",
+      "selectedIconPath": "/images/index_select_icon.png"
+    },
+    {
+      "pagePath": "pages/notes/notes",
+      "text": "笔记",
+      "iconPath": "/images/about_icon.png",
+      "selectedIconPath": "/images/about_select_icon.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "我的",
+      "iconPath": "/images/about_icon.png",
+      "selectedIconPath": "/images/about_select_icon.png"
+    }]
+  }
+}

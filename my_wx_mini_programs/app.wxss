@@ -1,0 +1,8 @@
+.bottom_logo{
+  text-align: center;
+  font-family: cursive;
+  font-size: 50rpx;
+  color: #aabbcc;
+  text-decoration: line-through;
+  margin-top: 30rpx;
+}

@@ -1,0 +1,29 @@
+<view class="info">
+  <view>
+    <image class="headshot" src="/images/about_icon.png" mode="" />
+  </view>
+  <view class="username">
+    myname
+  </view>
+</view>
+<view>
+  <view class="list">
+    <image class="icon" src="/images/about_icon.png" mode="center" />
+    设置
+  </view>
+  <view class="list">
+    <image class="icon" src="/images/about_icon.png" mode="center" />
+    联系
+  </view>
+  <view class="list">
+    <image class="icon" src="/images/about_icon.png" mode="center" />
+    关于
+  </view>
+  <view class="list">
+    <image class="icon" src="/images/about_icon.png" mode="center" />
+    版本信息
+  </view>
+</view>
+<view class="bottom_logo">
+  <text>杰瑞私房菜</text>
+</view>
